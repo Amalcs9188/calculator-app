@@ -1,0 +1,65 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(47, 47, 47);
+    color: rgb(188, 194, 199);
+    
+}
+
+
+
+.maindiv {
+    background-color: rgba(47, 47, 47, 0.436);
+    width:350px;
+    height:max-content;
+    border: none;
+    box-shadow: 2px 2px 8px rgb(12, 12, 12), -2px -2px 8px rgb(12, 12, 12);
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+.maindiv input{
+    background-color: rgb(47, 47, 47);
+    box-shadow: inset 2px 2px 3px rgb(12, 12, 12), inset -2px -2px 3px rgb(12, 12, 12) ;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 2.5em;
+    text-align: right;
+    color: rgb(188, 194, 199);
+
+   
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.first button{
+    width: 70px;
+    height: 40px;
+    border-radius: 45%;
+    border: none;
+    box-shadow: 2px 2px 8px rgb(12, 12, 12), -2px -2px 8px rgb(12, 12, 12);
+    background-color: rgb(47, 47, 47);
+    color: rgb(182, 178, 178);
+    font-size: 1.5em;
+    
+    
+}
+.first button:nth-child(4n){
+
+    color: aqua;
+    
+    
+}
+.first-1 button,
+.first-1 button i
+{
+    color: aqua;
+
+}
